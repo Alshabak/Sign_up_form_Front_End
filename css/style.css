@@ -1,0 +1,83 @@
+body{
+
+    padding: 0;
+    margin: 0;
+    font-family: "Simplified Arabic", cursive;
+
+}
+.main-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+
+.main-section .image-right img{
+    width: 57rem;
+    height: 43rem;
+}
+
+.main-section form input{
+border: none;
+    margin-bottom:1rem;
+    margin-top: 0.85rem;
+    font-size: 1.1rem;
+border-bottom: 2px solid lightgray;
+    color:lightgray ;
+
+
+
+
+}
+
+ .main-section form label{
+    margin-bottom: 17rem;
+     font-size:1.1rem;
+     font-weight: 500;
+     color: gray;
+}
+
+p{
+    font-weight: 700;
+    font-size: 2rem;
+    font-family: "Lucida Console", sans-serif;
+margin: 2.2rem 0 3rem 0;
+    text-transform: capitalize;
+}
+
+
+
+
+.main-section form a{
+
+    text-decoration: none;
+    color: darkslategray;
+    font-weight: 500;
+}
+
+
+.main-section form span{
+    color: gray;
+}
+
+
+.main-section form button{
+    border-radius: 5rem;
+    background-color:darkslateblue;
+    border: none;
+    padding: 0.65rem;
+    width: 12.5rem;
+    color: white;
+    font-weight: 500;
+    text-transform: capitalize;
+
+}
+
+
+
+.container{
+    margin-left: 4rem;
+    width: 1500px;
+
+}
